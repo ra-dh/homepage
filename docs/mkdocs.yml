@@ -9,8 +9,9 @@ repo_url: https://github.com/Virtlink/mkdocs-material-template
 edit_uri: https://github.com/Virtlink/mkdocs-material-template/edit/main/docs
 
 nav:
-  - Home:
-      - index.md
+  - index.md
+  - Blog:
+    - blog/index.md
 
 theme:
   name: material
@@ -83,6 +84,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - blog
   - search
   - git-revision-date-localized:
       enable_creation_date: true
