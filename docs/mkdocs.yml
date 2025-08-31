@@ -23,7 +23,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
+      primary: deep purple
       accent: orange
       toggle:
         icon: material/weather-night
@@ -31,7 +31,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
+      primary: deep purple
       accent: orange
       toggle:
         icon: material/weather-sunny
